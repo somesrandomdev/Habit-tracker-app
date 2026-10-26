@@ -41,3 +41,23 @@ example
 # generated native folders
 /ios
 /android
+
+# Added before backup (build output, deps, secrets)
+.venv/
+venv/
+__pycache__/
+*.pyc
+.next/
+.gradle/
+.dart_tool/
+.turbo/
+catboost_info/
+**/android/**/build/
+.env
+.env.*
+!.env.example
+!.env.sample
+*.keystore
+*.pfx
+credentials.json
+*accessKeys*.csv
